@@ -12,5 +12,5 @@ jobs:
     steps:
       - run: echo "Goodbye"
       - run: echo "Github actions"
-      - run: EXPORT MY_VAR=123
-      - run: echo $MY_VAR
+      - run: MyVar=Hello
+      - run: echo $MyVar
